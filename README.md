@@ -19,5 +19,9 @@ export UID=$(id -u) GID=$(id -g)
 ```
 
 ```bash
+docker compose build --no-cache
+```
+
+```bash
 docker-compose up -d
 ```

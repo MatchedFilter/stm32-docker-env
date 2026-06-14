@@ -22,6 +22,8 @@ RUN wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | gpg --dearmor -o /etc
 # Install clangd-22
 RUN apt-get update && apt-get install -y \
     clangd-22 \
+    lldb \
+    socat \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

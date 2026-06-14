@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: stm32-cmake-env:0.2
+    image: stm32-cmake-env:0.3
     volumes:
       - ../:/workspace
     user: "${UID}:${GID}"

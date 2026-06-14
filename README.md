@@ -25,3 +25,8 @@ docker compose build --no-cache
 ```bash
 docker-compose up -d
 ```
+
+To Run the docker image:
+```bash
+docker compose exec -it compiler /bin/bash
+```
